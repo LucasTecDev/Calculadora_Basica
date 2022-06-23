@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 0
   BorderStyle = bsDialog
   Caption = 'Calculadora B'#225'sica'
-  ClientHeight = 159
+  ClientHeight = 136
   ClientWidth = 457
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -36,14 +36,14 @@ object Form1: TForm1
     Caption = 'Resultado'
   end
   object Label4: TLabel
-    Left = 135
-    Top = 40
-    Width = 20
-    Height = 33
-    Caption = '+'
+    Left = 138
+    Top = 43
+    Width = 10
+    Height = 23
+    Caption = 'e'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -27
+    Font.Height = -19
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
@@ -82,13 +82,49 @@ object Form1: TForm1
     Height = 21
     TabOrder = 2
   end
-  object BntSomar: TButton
+  object Button1: TButton
     Left = 17
-    Top = 79
-    Width = 397
-    Height = 42
-    Caption = 'Somar'
+    Top = 100
+    Width = 75
+    Height = 25
+    Caption = 'Apagar '
     TabOrder = 3
-    OnClick = BntSomarClick
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 94
+    Top = 100
+    Width = 75
+    Height = 25
+    Caption = 'Divis'#227'o'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 167
+    Top = 99
+    Width = 75
+    Height = 25
+    Caption = 'Multiplica'#231#227'o'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 248
+    Top = 100
+    Width = 75
+    Height = 25
+    Caption = 'adi'#231#227'o'
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 325
+    Top = 100
+    Width = 75
+    Height = 25
+    Caption = 'Subtra'#231#227'o'
+    TabOrder = 7
+    OnClick = Button5Click
   end
 end
